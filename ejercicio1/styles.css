@@ -1,0 +1,57 @@
+@font-face {
+  font-family: CoolveticaR;
+  src: url(./fonts/coolvetica\ rg.otf);
+}
+@font-face {
+  font-family: RobotoL;
+  src: url(./fonts/Roboto-Light.ttf);
+}
+body {
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+#parr1 {
+  font-size: 120px;
+  font-family: "CoolveticaR";
+  color: #0a2ff1;
+  margin-bottom: 4rem;
+}
+#container1 {
+  margin: auto;
+}
+#parr2 {
+  margin: auto;
+  color: #04146c;
+  font-size: 40px;
+  font-family: "RobotoL";
+}
+#container2 button {
+  text-decoration: none;
+  display: block;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 3px solid rgb(12 46 219);
+}
+#container2 {
+  box-sizing: border-box;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  text-align: -webkit-center;
+}
+#btn1 {
+  margin: auto;
+  font-size: 40px;
+  font-family: "RobotoL";
+  background-color: #0a2ff1;
+  color: white;
+}
+#btn2 {
+  font-size: 40px;
+  font-family: "RobotoL";
+  color: #04146c;
+  background-color: transparent;
+  font-weight: bold;
+}
