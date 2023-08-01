@@ -1,0 +1,63 @@
+@font-face {
+  font-family: CoolveticaR;
+  src: url(./fonts/coolvetica\ rg.otf);
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url(./fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+body {
+  margin-left: 2rem;
+}
+header p:nth-child(1) {
+  font-family: "CoolveticaR";
+  font-size: 120px;
+  color: #0a2ff1;
+  margin: 0;
+}
+header p:nth-child(2) {
+  font-size: 40px;
+  font-family: "RobotoLight";
+  color: #04146c;
+}
+header span {
+  font-family: "RobotoBold";
+}
+section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+article {
+  width: 25%;
+  padding: 1em;
+  background-color: #eff2ff;
+}
+.container2 {
+  font-size: 24px;
+  color: #04146c;
+
+  font-family: "RobotoRegular";
+}
+.container1 img {
+  width: 30%;
+}
+.container1 p {
+  font-family: "RobotoLight";
+  font-style: italic;
+}
+.container2 p:nth-child(1) {
+  font-family: "RobotoBlack";
+}
