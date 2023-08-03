@@ -1,0 +1,53 @@
+@font-face {
+  font-family: CoolveticaR;
+  src: url(./fonts/coolvetica\ rg.otf);
+}
+@font-face {
+  font-family: RobotoBlack;
+  src: url(./fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+main {
+  display: flex;
+  padding: 1em;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin: 1em;
+}
+h1 {
+  font-size: 120px;
+  color: #0a2ff1;
+  font-family: "CoolveticaR";
+  font-weight: normal;
+}
+
+.card {
+  width: 25%;
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2ff;
+  border-radius: 15px;
+}
+.card img {
+  width: 25%;
+}
+#apple {
+  width: 18%;
+}
+.card h2 {
+  font-size: 30px;
+  color: #0a2ff1;
+  font-family: "RobotoBlack";
+}
+.card p {
+  font-size: 24px;
+  color: #04146c;
+  font-family: "RobotoRegular";
+}
