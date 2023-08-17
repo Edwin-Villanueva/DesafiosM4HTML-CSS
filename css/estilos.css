@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+header {
+  box-sizing: border-box;
+  mix-blend-mode: screen;
+  background-image: url(../images/fondo.jpg);
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+header p {
+  margin: auto;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  mix-blend-mode: screen;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 3em;
+}
+main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+h3 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 2em;
+  color: black;
+}
+h4 {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 1.2em;
+}
+#contenedor {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  z-index: 2;
+}
+#contenedor:hover {
+  opacity: 1;
+}
+#contenido {
+  box-sizing: border-box;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(221 160 220);
+  padding: 2rem;
+  z-index: 1;
+  opacity: 1; /* Inicialmente, la capa está transparente */
+  transition: opacity 0.3s ease;
+}
+#principio {
+  font-family: "Roboto";
+  width: 45%;
+}
+#contenido * {
+  font-family: "Roboto";
+}
+#contenido a {
+  cursor: pointer;
+  color: rgb(99 63 204);
+}
+#foto {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#foto img {
+  width: 100%;
+  height: 100%;
+}
